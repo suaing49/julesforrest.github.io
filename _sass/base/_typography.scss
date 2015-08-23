@@ -60,11 +60,14 @@ picture {
 
 .nugget {
   font-family: $nugget-font-family;
-  font-size: 0.833em;
   font-weight: 600;
   margin-bottom: 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.nugget-small {
+  font-size: 0.833em;
 }
 
 .nugget-white {
@@ -73,6 +76,10 @@ picture {
 
 .nugget-gray {
   color: $light-gray;
+}
+
+.footer-gray {
+  color: $footer-gray;
 }
 
 .byline {
@@ -88,4 +95,14 @@ picture {
   font-size: 20px;
   line-height: 32px;
   width: 550px;
+}
+
+.italic-footer {
+  color: $footer-gray;
+  font-family: $heading-font-family;
+  font-style: italic;
+}
+
+.align-right {
+  text-align: right;
 }
