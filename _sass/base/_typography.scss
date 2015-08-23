@@ -19,6 +19,10 @@ h6 {
   margin: 0 0 $small-spacing;
 }
 
+h1 {
+  font-size: 2.825em;
+}
+
 p {
   margin: 0 0 $small-spacing;
 }
@@ -52,4 +56,36 @@ img,
 picture {
   margin: 0;
   max-width: 100%;
+}
+
+.nugget {
+  font-family: $nugget-font-family;
+  font-size: 0.833em;
+  font-weight: 600;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.nugget-white {
+  color: #fff;
+}
+
+.nugget-gray {
+  color: $light-gray;
+}
+
+.byline {
+  color: #fff;
+  font-family: $heading-font-family;
+  font-size: 1.5em;
+  font-style: italic;
+  margin-top:45px;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 20px;
+  line-height: 32px;
+  width: 550px;
 }

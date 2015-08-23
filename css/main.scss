@@ -2,6 +2,57 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+@import "normalize";
 @import "bourbon/bourbon";
 @import "neat/neat";
 @import "base/base";
+
+.orange {
+  color: $orange;
+}
+
+.aqua {
+  background-color: $aqua;
+}
+
+.homepage-hero {
+  background: $orange;
+  padding: 150px 0;
+}
+
+.logo--hero {
+  display: block;
+  margin: auto;
+}
+
+.divider {
+  height: 3px;
+  margin-bottom: 45px;
+  width: 55px;
+}
+
+.divider-white {
+  background-color: #fff;
+  margin: auto;
+}
+
+section {
+  @include outer-container;
+  intro { @include span-columns(8); }
+  project { @include span-columns(4); }
+}
+
+.content {
+  margin:150px 0;
+}
+
+.project-first {
+  background-color: $background-gray;
+  height: 300px;
+}
+
+.project {
+  background-color: $background-gray;
+  height: 300px;
+  margin-top: 25px;
+}
