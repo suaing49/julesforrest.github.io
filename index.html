@@ -3,50 +3,43 @@ layout: default
 ---
 
 <div class="homepage-hero">
-  <div class="nugget nugget-white">Welcome to</div>
+  <div class="nugget text-white">Welcome to</div>
   <img src="img/logo.svg" class="logo--hero">
-  <div class="nugget nugget-white">A design portfolio</div>
+  <div class="nugget text-white">A design portfolio</div>
   <div class="divider divider-white"></div>
-  <div class="byline">By Jules Forrest</div>
+  <div class="byline text-white">By Jules Forrest</div>
 </div>
 
 <div class="content">
   <section>
-    <intro>
-      <div class="nugget nugget-gray">
+    <div class="intro">
+      <div class="nugget nugget-small text-light-gray">
         Hello there
       </div>
-      <h1 class="orange"> My name is Jules.</h1>
+      <h1 class="text-orange homepage-intro"> My name is Jules.</h1>
       <div class="divider aqua"></div>
-      <p class="intro-text">I’m a Bay Area designer who can’t get through a meal without a generous dose of freshly ground pepper.</p>
-    </intro>
-    <project class="project-first">
-      this is thing
-    </project>
+      <p class="intro-text text-medium-gray">I’m a Bay Area designer who can’t get through a meal without a generous dose of freshly ground pepper.</p>
+    </div>
+
+    <div class="project third">
+      {% for post in site.posts limit:1 %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="divider divider-white"></div>
+        <p class="">{{ post.categories | join: ', ' }}</p>
+      {% endfor %}
+    </div>
   </section>
-
-
   <section>
-      <project class="project">
-        this is thing
-      </project>
-      <project class="project">
-        this is thing
-      </project>
-      <project class="project">
-        this is thing
-      </project>
-  </section>
-
-  <section>
-      <project class="project">
-        this is thing
-      </project>
-      <project class="project">
-        this is thing
-      </project>
-      <project class="project">
-        this is thing
-      </project>
+    <ul>
+      {% for post in site.posts offset:1 %}
+        <li class="third">
+          <div class="project">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <div class="divider divider-white"></div>
+            <p class="">{{ post.categories | join: ', ' }}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
   </section>
 </div>

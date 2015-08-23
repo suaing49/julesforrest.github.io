@@ -1,15 +1,25 @@
 ---
 layout: default
 ---
+
 <div class="post">
+  <section>
+    <h1 class="post-title text-dark-gray header-margin-shrink">{{ page.title }}</h1>
+    <div class="post-meta nugget text-aqua nugget-small">{{ page.categories | join: ', ' }}</div>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
+    <article class="post-content">
+      <div class="half">
+        <h2 class="text-dark-gray">Project brief</h2>
+        <div class="divider background-orange"></div>
+        {{ page.brief }}
+      </div>
+      <div class="half">
+        <h2 class="text-dark-gray">Highlights </h2>
+        <div class="divider background-orange"></div>
+        {{ page.highlights }}
+      </div>
+      {{ content }}
+    </article>
+  </section>
 
 </div>

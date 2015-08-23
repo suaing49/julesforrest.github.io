@@ -19,11 +19,22 @@ h6 {
   margin: 0 0 $small-spacing;
 }
 
-h1 {
-  font-size: 2.825em;
+.homepage-intro {
+  font-size: 2em;
+}
+
+.header-margin-shrink {
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 300;
 }
 
 p {
+  color: text-medium-gray;
   margin: 0 0 $small-spacing;
 }
 
@@ -35,7 +46,7 @@ a {
   &:active,
   &:focus,
   &:hover {
-    color: darken($action-color, 15%);
+    color: $orange;
   }
 
   &:active,
@@ -70,20 +81,7 @@ picture {
   font-size: 0.833em;
 }
 
-.nugget-white {
-  color: #fff;
-}
-
-.nugget-gray {
-  color: $light-gray;
-}
-
-.footer-gray {
-  color: $footer-gray;
-}
-
 .byline {
-  color: #fff;
   font-family: $heading-font-family;
   font-size: 1.5em;
   font-style: italic;
@@ -98,11 +96,45 @@ picture {
 }
 
 .italic-footer {
-  color: $footer-gray;
   font-family: $heading-font-family;
+  font-weight: 500;
   font-style: italic;
 }
 
 .align-right {
   text-align: right;
+}
+
+.post-title {
+  font-size: 3.5em;
+}
+
+/* Text colors */
+
+.text-dark-gray {
+  color: $dark-gray;
+}
+
+.text-medium-gray {
+  color: $medium-gray;
+}
+
+.text-light-gray {
+  color: $light-gray;
+}
+
+.text-footer-gray {
+  color: $footer-gray;
+}
+
+.text-aqua {
+  color: $aqua;
+}
+
+.text-orange {
+  color: $orange;
+}
+
+.text-white {
+  color: #fff;
 }
