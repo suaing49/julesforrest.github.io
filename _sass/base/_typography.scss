@@ -20,7 +20,7 @@ h6 {
 }
 
 .homepage-intro {
-  font-size: 2em;
+  font-size: 2.35em;
 }
 
 .header-margin-shrink {
@@ -39,7 +39,7 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: $aqua;
   text-decoration: none;
   transition: color 0.1s linear;
 
@@ -72,8 +72,9 @@ picture {
 .nugget {
   font-family: $nugget-font-family;
   font-weight: 600;
-  margin-bottom: 15px;
   letter-spacing: 2px;
+  line-height: 24px;
+  margin-bottom: 15px;
   text-transform: uppercase;
 }
 
@@ -83,7 +84,7 @@ picture {
 
 .byline {
   font-family: $heading-font-family;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-style: italic;
   margin-top:45px;
   text-align: center;
@@ -105,8 +106,12 @@ picture {
   text-align: right;
 }
 
+.align-center {
+  text-align: center;
+}
+
 .post-title {
-  font-size: 3.5em;
+  font-size: 3.1em;
 }
 
 /* Text colors */
@@ -137,4 +142,34 @@ picture {
 
 .text-white {
   color: #fff;
+}
+
+.homepage-title-hover {
+  margin: 0 auto 30px auto;
+  width: 200px;
+  text-align: center;
+}
+
+.homepage-tags-hover {
+  margin: 30px auto 0 auto;
+  width: 240px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.caption {
+  font-family: $nugget-font-family;
+  font-size: 0.9em;
+  font-color: $medium-gray;
+  margin-bottom: 75px;
+}
+
+.colophon {
+  color: $footer-gray;
+  font-family: $nugget-font-family;
+  font-size: 0.6em;
+  letter-spacing: 2px;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
 }

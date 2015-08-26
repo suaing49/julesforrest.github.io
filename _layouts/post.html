@@ -6,8 +6,7 @@ layout: default
   <section>
     <h1 class="post-title text-dark-gray header-margin-shrink">{{ page.title }}</h1>
     <div class="post-meta nugget text-aqua nugget-small">{{ page.categories | join: ', ' }}</div>
-
-    <article class="post-content">
+    <div class="post-intro">
       <div class="half">
         <h2 class="text-dark-gray">Project brief</h2>
         <div class="divider background-orange"></div>
@@ -18,8 +17,11 @@ layout: default
         <div class="divider background-orange"></div>
         {{ page.highlights }}
       </div>
-      {{ content }}
-    </article>
+    </div>
   </section>
-
+  <section>
+    <div class="project-content">
+      {{ content }}
+    </div>
+  </section>
 </div>

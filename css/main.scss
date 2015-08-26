@@ -7,7 +7,7 @@
 @import "neat/neat";
 @import "base/base";
 
-half {
+.half {
   padding-right: 50px;
 }
 .orange {
@@ -30,6 +30,22 @@ half {
 .logo--hero {
   display: block;
   margin: auto;
+  z-index: 1;
+}
+
+.hero-first {
+  margin-left: 389px;
+  margin-top: 112px;
+  position: absolute;
+  z-index: 2;
+}
+
+.hero-second {
+  margin-left: 823px;
+  margin-top: -51px;
+  padding-bottom: 125px;
+  position: absolute;
+  z-index: 2;
 }
 
 .divider {
@@ -43,6 +59,10 @@ half {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 55px;
+}
+
+.hero-graphic {
+  margin-bottom: 80px
 }
 
 .divider-right {
@@ -61,28 +81,57 @@ section {
     @include span-columns(4);
     @include omega(3n);
   }
-  .half { @include span-columns(6); }
+  .half {
+    @include span-columns(6);
+    @include omega (2n);
+  }
 }
 
 .content {
-  margin:150px 0;
+  margin: 60px 0 150px 0;
 }
 
 .project {
-  background-color: $background-gray;
-  height: 320px;
+  background-color: $aqua;
+  height: 300px;
   margin-bottom: 25px;
+  position: relative;
+  z-index: 2;
+  max-width: 300px;
+}
+
+.project-info {
+  max-height: 168px;
+  padding-top: 85px;
+  position: relative;
+  z-index: 1;
 }
 
 .site-footer {
   background-color: $background-gray;
   padding: 100px 0;
+  position: relative;
+  z-index: 2;
 }
 
 .footer-seal {
   display: block;
-  height: 90px;
+  max-height: 90px;
   margin: auto;
+  max-width:90px;
+  transition: transform 0s;
+}
+
+.footer-seal:hover {
+  transform: rotate(360deg);
+  transition:transform 0.8s;
+}
+
+.footer-seal .seal {
+  transition: fill 0.25s ease-out;
+}
+.footer-seal:hover .seal {
+  fill: $orange;
 }
 
 .wide-text {
@@ -97,6 +146,99 @@ section {
   margin-top: 100px;
 }
 
-.post-content {
-  margin-top: 50px;
+.post-intro {
+  margin-top: 50px ;
+}
+
+.project-content {
+  margin: 100px 0;
+}
+
+.home-page-thumbnail {
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  width: 300px
+}
+
+.home-page-thumbnail:hover {
+  opacity: 0.1;
+}
+
+.border {
+  border: 1px $border-gray solid;
+  padding: 15px;
+  margin-bottom: 1em;
+}
+
+.about-text {
+  margin-bottom: 12px;
+  padding-right: 100px;
+}
+
+.about-image {
+  background-image: url(/img/about.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.logo--header {
+  width: 125px;
+}
+.header__navigation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2em 0;
+}
+
+.header__navigation__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  list-style: none;
+  text-align: right;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.header__navigation__list li {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__navigation__list a {
+  color: $light-gray;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.header__navigation__list__item:hover {
+  color: $orange;
+}
+
+.work-content {
+  margin-top: 150px;
+}
+
+#work {
+  margin-top: 2px;
 }
