@@ -7,72 +7,8 @@
 @import "neat/neat";
 @import "base/base";
 
-.half {
-  padding-right: 50px;
-}
-.orange {
-  color: $orange;
-}
 
-.aqua {
-  background-color: $aqua;
-}
-
-.gray {
-  background-color: $footer-gray;
-}
-
-.homepage-hero {
-  background: $orange;
-  padding: 150px 0;
-}
-
-.logo--hero {
-  display: block;
-  margin: auto;
-  z-index: 1;
-}
-
-.hero-first {
-  margin-left: 389px;
-  margin-top: 112px;
-  position: absolute;
-  z-index: 2;
-}
-
-.hero-second {
-  margin-left: 823px;
-  margin-top: -51px;
-  padding-bottom: 125px;
-  position: absolute;
-  z-index: 2;
-}
-
-.divider {
-  height: 3px;
-  margin: 35px 0;
-  width: 55px;
-}
-
-.divider-footer {
-    height: 3px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 55px;
-}
-
-.hero-graphic {
-  margin-bottom: 80px
-}
-
-.divider-right {
-  margin-left: auto;
-}
-
-.divider-white {
-  background-color: #fff;
-  margin: auto;
-}
+/********** grid styles **********/
 
 section {
   @include outer-container;
@@ -87,101 +23,76 @@ section {
   }
 }
 
-.content {
-  margin: 60px 0 150px 0;
+/********** color styles **********/
+
+.orange {
+  color: $orange;
 }
 
-.project {
+.aqua {
   background-color: $aqua;
-  height: 300px;
-  margin-bottom: 25px;
-  position: relative;
-  z-index: 2;
-  max-width: 300px;
 }
 
-.project-info {
-  max-height: 168px;
-  padding-top: 85px;
-  position: relative;
-  z-index: 1;
-}
-
-.site-footer {
-  background-color: $background-gray;
-  padding: 100px 0;
-  position: relative;
-  z-index: 2;
-}
-
-.footer-seal {
-  display: block;
-  max-height: 90px;
-  margin: auto;
-  max-width:90px;
-  transition: transform 0s;
-}
-
-.footer-seal:hover {
-  transform: rotate(360deg);
-  transition:transform 0.8s;
-}
-
-.footer-seal .seal {
-  transition: fill 0.25s ease-out;
-}
-.footer-seal:hover .seal {
-  fill: $orange;
-}
-
-.wide-text {
-  letter-spacing: 3px;
+.gray {
+  background-color: $footer-gray;
 }
 
 .background-orange {
   background-color: $orange;
 }
 
-.post {
-  margin-top: 100px;
+/********** content spacing styles **********/
+
+.homepage-content-spacing {
+  padding-top: 150px;
+  padding-bottom: 126px;
 }
 
-.post-intro {
-  margin-top: 50px ;
+.page-content-spacing {
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
 
-.project-content {
-  margin: 100px 0;
+.post-content-spacing {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+/********** divider styles **********/
+
+.divider {
+    height: 3px;
+    width: 55px;
 }
 
-.home-page-thumbnail {
-  height: 300px;
-  position: absolute;
-  z-index: -1;
-  width: 300px
+.divider-right {
+  margin-left: auto;
 }
 
-.home-page-thumbnail:hover {
-  opacity: 0.1;
+.divider-white {
+  background-color: #fff;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55px;
 }
 
-.border {
-  border: 1px $border-gray solid;
-  padding: 15px;
-  margin-bottom: 1em;
+.divider-content {
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
-.about-text {
-  margin-bottom: 12px;
-  padding-right: 100px;
+.divider-hero {
+  margin: 85px auto 50px auto;
 }
 
-.about-image {
-  background-image: url(/img/about.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 300px;
+.divider-footer {
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 55px;
 }
+
+/********** nav styles **********/
 
 .logo--header {
   width: 125px;
@@ -233,12 +144,180 @@ section {
 
 .header__navigation__list__item:hover {
   color: $orange;
+  transition: color 0.2s linear;
 }
 
-.work-content {
-  margin-top: 150px;
-}
+/********** add id for nav anchor link **********/
 
 #work {
   margin-top: 2px;
+}
+
+/********** hero styles **********/
+
+.homepage-hero {
+  align-items: center;
+  background: $orange;
+  display: flex;
+  justify-content: center;
+  height:100vh;
+  width: 100%;
+}
+
+.hero-graphic--container {
+  display: flex;
+  flex-direction: column;
+  min-height: 469px;
+}
+
+.logo--hero {
+  display: block;
+  margin: auto;
+}
+
+.hero-first {
+    left: 3px;
+    position: absolute;
+    top: 110px;
+}
+
+.hero-second {
+  bottom: -20px;
+  position: absolute;
+  right: 0;
+}
+
+.hero-graphic {
+  position: relative;
+  width: 650px;
+}
+
+/********** parallax styles **********/
+
+
+/********** homepage project styles **********/
+
+.project {
+  background-color: $aqua;
+  display: flex;
+  height: 300px;
+  margin-bottom: 24px;
+  max-width: 300px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.project:hover {
+    overflow: hidden;
+}
+
+.project-info {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  position: relative;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+.project:hover .project-info {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.project .home-page-thumbnail {
+  height: 300px;
+  opacity: 1;
+  position: absolute;
+  transition: opacity 0.3s;
+  transition: transform 0.3s;
+  width: 300px;
+  z-index: -1;
+}
+
+.project:hover .home-page-thumbnail {
+  opacity: 0.075;
+  transition: opacity 0.3s;
+  -webkit-transform:scale(1.05); /********** Safari and Chrome **********/
+  -moz-transform:scale(1.05); /********** Firefox **********/
+  -ms-transform:scale(1.05); /********** IE 9 **********/
+  -o-transform:scale(1.05); /********** Opera **********/
+   transform:scale(1.05);
+   transition: transform 0.3s;
+}
+
+
+/********** footer styles **********/
+
+.site-footer {
+  background-color: $background-gray;
+  padding: 100px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.footer-seal {
+  display: block;
+  max-height: 90px;
+  margin: auto;
+  max-width:90px;
+  transition: transform 0s;
+}
+
+.footer-seal:hover {
+  transform: rotate(-720deg);
+  transition:transform 0.7s;
+}
+
+.footer-seal .seal {
+  transition: fill 0.2s ease-out;
+}
+.footer-seal:hover .seal {
+  fill: $orange;
+}
+
+.wide-text {
+  letter-spacing: 3px;
+}
+
+/********** post styles **********/
+
+.post-intro {
+  margin-top: 50px ;
+}
+
+.project-content {
+  margin-top: 100px;
+}
+
+.half {
+  padding-right: 50px;
+}
+
+.border {
+  border: 1px $border-gray solid;
+  padding: 15px;
+  margin-bottom: 1em;
+}
+
+img {
+
+}
+
+/********** about page styles **********/
+
+.about-text {
+  margin-bottom: 12px;
+  padding-right: 100px;
+}
+
+.about-image {
+  background-image: url(/img/about.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
 }

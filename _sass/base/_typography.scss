@@ -41,18 +41,22 @@ p {
 a {
   color: $aqua;
   text-decoration: none;
-  transition: color 0.1s linear;
+  transition: color 0.2s linear;
 
   &:active,
   &:focus,
   &:hover {
     color: $orange;
+    transition: color 0.2s linear;
   }
 
   &:active,
   &:focus {
     outline: none;
   }
+}
+li a:hover {
+  transition: color 0.2s linear;
 }
 
 hr {
@@ -69,52 +73,7 @@ picture {
   max-width: 100%;
 }
 
-.nugget {
-  font-family: $nugget-font-family;
-  font-weight: 600;
-  letter-spacing: 2px;
-  line-height: 24px;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-.nugget-small {
-  font-size: 0.833em;
-}
-
-.byline {
-  font-family: $heading-font-family;
-  font-size: 1.7em;
-  font-style: italic;
-  margin-top:45px;
-  text-align: center;
-}
-
-.intro-text {
-  font-size: 20px;
-  line-height: 32px;
-  width: 550px;
-}
-
-.italic-footer {
-  font-family: $heading-font-family;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.align-right {
-  text-align: right;
-}
-
-.align-center {
-  text-align: center;
-}
-
-.post-title {
-  font-size: 3.1em;
-}
-
-/* Text colors */
+/********** text color styles **********/
 
 .text-dark-gray {
   color: $dark-gray;
@@ -144,6 +103,64 @@ picture {
   color: #fff;
 }
 
+/********** alignment styles **********/
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/********** nugget styles **********/
+
+.nugget {
+  font-family: $nugget-font-family;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.nugget-small {
+  font-size: 0.833em;
+}
+
+/********** hero styles **********/
+
+.byline {
+  font-family: $heading-font-family;
+  font-size: 1.7em;
+  font-style: italic;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 20px;
+  line-height: 32px;
+  width: 550px;
+}
+
+/********** footer styles **********/
+
+
+.italic-footer {
+  font-family: $heading-font-family;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/********** post styles **********/
+
+.post-title {
+  font-size: 3.1em;
+}
+
+
+/********** project card styles **********/
+
 .homepage-title-hover {
   margin: 0 auto 30px auto;
   width: 200px;
@@ -157,12 +174,17 @@ picture {
   text-transform: capitalize;
 }
 
+/********** caption styles **********/
+
 .caption {
+  font-color: $medium-gray;
   font-family: $nugget-font-family;
   font-size: 0.9em;
-  font-color: $medium-gray;
-  margin-bottom: 75px;
+  margin-bottom: 70px;
+
 }
+
+/********** colophon styles **********/
 
 .colophon {
   color: $footer-gray;
