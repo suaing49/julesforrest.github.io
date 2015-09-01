@@ -128,6 +128,10 @@ picture {
   font-size: 0.833em;
 }
 
+.nugget-footer {
+  font-size: 0.75em;
+}
+
 /********** hero styles **********/
 
 .byline {
@@ -148,10 +152,10 @@ picture {
 
 .italic-footer {
   font-family: $heading-font-family;
-  font-weight: 500;
+  font-size: 0.9em;
   font-style: italic;
+  font-weight: 500;
 }
-
 /********** post styles **********/
 
 .post-title {
@@ -169,7 +173,7 @@ picture {
 
 .homepage-tags-hover {
   margin: 30px auto 0 auto;
-  width: 240px;
+  width: 220px;
   text-align: center;
   text-transform: capitalize;
 }
@@ -180,8 +184,7 @@ picture {
   font-color: $medium-gray;
   font-family: $nugget-font-family;
   font-size: 0.9em;
-  margin-bottom: 70px;
-
+  margin-top: 10px;
 }
 
 /********** colophon styles **********/

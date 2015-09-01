@@ -2,45 +2,17 @@
 layout: homepage
 ---
 
-<div class="homepage-hero">
-  <div class="hero-graphic--container">
-    <div class="hero-graphic">
-      <div class="nugget nugget-small text-white hero-first">Welcome to</div>
-      <img src="img/logo.svg" class="logo--hero">
-      <div class="nugget text-white hero-second">A design portfolio</div>
-    </div>
-    <div class="divider divider-white divider-hero"></div>
-    <div class="byline text-white">By Jules Forrest</div>
-  </div>
-</div>
-
-<div id="work"></div>
-<div class="homepage-content-spacing">
-  <section>
-    <div class="intro">
-      <div class="nugget nugget-small text-light-gray">Well, hello there</div>
-      <h1 class="text-orange homepage-intro"> Thanks for stopping by.</h1>
-      <div class="divider-content divider aqua"></div>
-      <p class="intro-text text-medium-gray">My name is Jules and I’m a Bay Area designer who thinks that everything tastes better with fresh ground pepper. </p>
-    </div>
-    {% for post in site.posts limit:1 %}
-      <div class="third">
-        <a href="{{ post.url }}">
-          <div class="project"> <img src="{{ post.thumb }}" class="home-page-thumbnail">
-            <div class="project-info">
-              <div class="nugget homepage-title-hover text-white text-center">{{ post.title }}</div>
-              <div class="divider-white"></div>
-              <p class="homepage-tags-hover text-white text-center">{{ post.categories | join: ', ' }}</p>
-            </div>
-          </div>
-        </a>
+<div id="work">
+  <div class="content">
+    <section>
+      <div class="intro">
+        <div class="nugget nugget-small text-light-gray">Well, hello there</div>
+        <h1 class="text-orange homepage-intro"> Thanks for stopping by.</h1>
+        <div class="divider-content divider aqua"></div>
+        <p class="intro-text text-medium-gray">My name is Jules and I’m a Bay Area designer who thinks that everything tastes better with fresh ground pepper. </p>
       </div>
-    {% endfor %}
-  </section>
-  <section>
-    <ul>
-      {% for post in site.posts offset:1 %}
-        <li class="third">
+      {% for post in site.posts limit:1 %}
+        <div class="third">
           <a href="{{ post.url }}">
             <div class="project"> <img src="{{ post.thumb }}" class="home-page-thumbnail">
               <div class="project-info">
@@ -50,8 +22,25 @@ layout: homepage
               </div>
             </div>
           </a>
-        </li>
+        </div>
       {% endfor %}
-    </ul>
-  </section>
+    </section>
+    <section>
+      <ul>
+        {% for post in site.posts offset:1 %}
+          <li class="third post-items">
+            <a href="{{ post.url }}">
+              <div class="project"> <img src="{{ post.thumb }}" class="home-page-thumbnail">
+                <div class="project-info">
+                  <div class="nugget homepage-title-hover text-white text-center">{{ post.title }}</div>
+                  <div class="divider-white"></div>
+                  <p class="homepage-tags-hover text-white text-center">{{ post.categories | join: ', ' }}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
 </div>

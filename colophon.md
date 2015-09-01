@@ -5,7 +5,10 @@ permalink: /colophon/
 ---
 <div class="intro">
 
-<p class="about-text">Quisque venenatis orci nec nisl bibendum, id pharetra turpis vulputate. Etiam placerat elit vel iaculis eleifend. Sed sit amet arcu a quam commodo pharetra eget eget elit. Cras dignissim accumsan tellus, sit amet vulputate orci porttitor non.</p>
+<p class="about-text">This portfolio site is inspired by many designers who came before me, most notably Jessie Ren, Lauren Hom, the folks at Focus Labs, and Bethany Heck.</p>
 
-<p class="about-text">Fusce ac consectetur enim. Vivamus turpis tellus, malesuada ac erat vitae, pulvinar venenatis turpis. Quisque interdum blandit est id volutpat. Etiam in ipsum sagittis, accumsan ipsum vitae, tincidunt metus.</p>
+<p class="about-text">The type is set in Freight Text and Rooney Web Sans, with nuggets and captions in Proxima Nova Soft. </p>
+
+<p class="about-text">The site itself was built on Thoughtbot's Bourbon, Neat and Bitters, with the help and patience of Daniel O'Connor. It lives on Github Pages and is powered by Jekyll. </p>
+
 </div>

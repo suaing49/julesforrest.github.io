@@ -41,22 +41,26 @@ section {
   background-color: $orange;
 }
 
-/********** content spacing styles **********/
+/********** spacing styles **********/
 
-.homepage-content-spacing {
-  padding-top: 150px;
-  padding-bottom: 126px;
+.content {
+  background-color: #fff;
+  padding-top: 170px;
+  padding-bottom: 170px;
 }
 
-.page-content-spacing {
-  padding-top: 50px;
-  padding-bottom: 150px;
+.margin-bottom {
+  margin-bottom: 70px;
 }
 
-.post-content-spacing {
-  padding-top: 40px;
-  padding-bottom: 80px;
+.margin-image {
+  margin-bottom: 35px;
 }
+
+.flush--bottom {
+  margin-bottom: 0px;
+}
+
 /********** divider styles **********/
 
 .divider {
@@ -86,34 +90,40 @@ section {
 }
 
 .divider-footer {
+    background: tint($footer-gray, 30%);
     height: 3px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     width: 55px;
 }
 
 /********** nav styles **********/
 
+
 .logo--header {
-  width: 125px;
+  @include flex(1);
 }
+
+.header--sticky {
+  position: fixed;
+  @include outer-container;
+  width: 100%;
+}
+
 .header__navigation {
+  background-color: #fff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 2em 0;
+  @include display(flex);
+  padding: 0.9em 0;
 }
 
 .header__navigation__list {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  @include display(flex);
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 3px;
@@ -132,7 +142,7 @@ section {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  @include display(flex);
 }
 
 .header__navigation__list a {
@@ -147,25 +157,22 @@ section {
   transition: color 0.2s linear;
 }
 
-/********** add id for nav anchor link **********/
-
-#work {
-  margin-top: 2px;
-}
 
 /********** hero styles **********/
 
 .homepage-hero {
   align-items: center;
   background: $orange;
-  display: flex;
-  justify-content: center;
+  @include display(flex);
   height:100vh;
+  justify-content: center;
+  position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .hero-graphic--container {
-  display: flex;
+  @include display(flex);
   flex-direction: column;
   min-height: 469px;
 }
@@ -192,14 +199,23 @@ section {
   width: 650px;
 }
 
-/********** parallax styles **********/
-
 
 /********** homepage project styles **********/
 
+#work {
+  background-color: #fff;
+}
+
+.scroll-container {
+  position: absolute;
+  margin-top:100vh;
+  width: 100%;
+  z-index:2;
+}
+
 .project {
   background-color: $aqua;
-  display: flex;
+  @include display(flex);
   height: 300px;
   margin-bottom: 24px;
   max-width: 300px;
@@ -208,14 +224,18 @@ section {
   z-index: 2;
 }
 
+.post-items:nth-last-child(-n+3) .project{
+    margin-bottom: 0;
+}
+
 .project:hover {
     overflow: hidden;
 }
 
 .project-info {
   align-items: center;
-  display: flex;
-  flex: 1;
+  @include display(flex);
+  @include flex(1);
   flex-direction: column;
   justify-content: center;
   opacity: 0;
@@ -233,8 +253,7 @@ section {
   height: 300px;
   opacity: 1;
   position: absolute;
-  transition: opacity 0.3s;
-  transition: transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
   width: 300px;
   z-index: -1;
 }
@@ -242,11 +261,11 @@ section {
 .project:hover .home-page-thumbnail {
   opacity: 0.075;
   transition: opacity 0.3s;
-  -webkit-transform:scale(1.05); /********** Safari and Chrome **********/
-  -moz-transform:scale(1.05); /********** Firefox **********/
-  -ms-transform:scale(1.05); /********** IE 9 **********/
-  -o-transform:scale(1.05); /********** Opera **********/
-   transform:scale(1.05);
+  -webkit-transform:scale(1.03); /********** Safari and Chrome **********/
+  -moz-transform:scale(1.03); /********** Firefox **********/
+  -ms-transform:scale(1.03); /********** IE 9 **********/
+  -o-transform:scale(1.03); /********** Opera **********/
+   transform:scale(1.03);
    transition: transform 0.3s;
 }
 
@@ -304,8 +323,8 @@ section {
   margin-bottom: 1em;
 }
 
-img {
-
+.border img {
+  margin-bottom: -8px;
 }
 
 /********** about page styles **********/
