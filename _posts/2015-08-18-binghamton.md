@@ -13,18 +13,49 @@ thumb: /img/binghamton/binghamton-homepage.png
 ---
 
 <div class="margin-bottom">
-  <img class="margin-image" src="/img/binghamton/curious1.jpg">
-  <img class="margin-image" src="/img/binghamton/curious2.jpg">
-  <img src="/img/binghamton/curious3.jpg">
-  <p class="caption">Spreads from an admissions travel piece</p>
+  <div class="border">
+    <img class="margin-image" src="/img/binghamton/curious1.jpg">
+    <img class="margin-image" src="/img/binghamton/curious2.jpg">
+    <img src="/img/binghamton/curious3.jpg">
+  </div>
+  <p class="caption">Spreads from an admissions travel piece.</p>
 </div>
 
 <div class="margin-bottom">
-  <div class="half">
-    <img src="/img/binghamton/posters-1.png">
+  <div class="overflow--auto border">
+    <div class="half">
+      <img src="/img/binghamton/poster1.png">
+    </div>
+    <div class="half">
+      <img src="/img/binghamton/poster2.png">
+    </div>
   </div>
-  <div class="half">
-    <img src="/img/binghamton/posters-2.png">
-  </div>
+  <p class="caption">Posters for a student engagement initiative.</p>
 </div>
-<p class="caption margin-bottom">Posters from a student engagement campaign</p>
+
+<div class="margin-bottom">
+  <div class="border">
+    <img class="margin-image" src="/img/binghamton/brochure1.png">
+    <img src="/img/binghamton/brochure2.png">
+  </div>
+  <p class="caption">A brochure from the Counseling Center on violence prevention.</p>
+</div>
+
+<div class="margin-bottom">
+  <div class="overflow--auto border">
+    <div class="half">
+      <img src="/img/binghamton/postcard1.png">
+    </div>
+    <div class="half">
+      <img src="/img/binghamton/postcard2.png">
+    </div>
+  </div>
+  <p class="caption">A reminder postcard for seniors about graduation.</p>
+</div>
+
+<div class="flush--bottom">
+  <div class="border">
+    <img src="/img/binghamton/poster3.png">
+  </div>
+  <p class="caption flush--bottom">A poster for engineering graduate programs.</p>
+</div>
