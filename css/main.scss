@@ -156,7 +156,7 @@ img {
   padding: 0;
 }
 
-.header__navigation__list:nth-last-child(n):a{
+.header__navigation__list:nth-last-child(n):li a{
   padding-right: 0;
 }
 
@@ -230,7 +230,7 @@ img {
 
 .homepage .nav--container {
   display: none;
-  z-index: 100;
+  z-index: 3;
 }
 
 /********** homepage project styles **********/
@@ -355,6 +355,29 @@ img {
   border: 1px $border-gray solid;
   padding: 15px;
   margin-bottom: 1em;
+}
+
+
+/********** arrow navigation styles **********/
+
+.arrow--container {
+  align-items: center;
+  @include display(flex);
+  height: 100vh;
+  position: fixed;
+  z-index: 4;
+}
+
+.arrow {
+  padding: 40px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
 }
 
 /********** about page styles **********/
