@@ -60,7 +60,7 @@ section {
 }
 
 .margin-image {
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .flush--bottom {
@@ -156,8 +156,8 @@ img {
   padding: 0;
 }
 
-.header__navigation__list:nth-last-child(n):li a{
-  padding-right: 0;
+.header__navigation__list:nth-last-child(n) a{
+  margin-right: 0;
 }
 
 .header__navigation__list li {
@@ -353,7 +353,7 @@ img {
 
 .border {
   border: 1px $border-gray solid;
-  padding: 15px;
+  padding: 20px;
   margin-bottom: 1em;
 }
 
@@ -369,7 +369,10 @@ img {
 }
 
 .arrow {
-  padding: 40px;
+  align-items: center;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .left {
@@ -379,6 +382,46 @@ img {
 .right {
   right: 0;
 }
+
+.arrow:hover {
+  background-color: $aqua;
+}
+
+.arrow:hover .hover-title-arrow {
+  display: inline;
+}
+
+.hover-title {
+  color: #fff;
+  display: inline;
+}
+
+.hover-title-left {
+  padding-right: 30px;
+  margin-left: -92px;
+  transition: margin .5s;
+}
+
+.arrow:hover .hover-title-left {
+  margin: 0;
+  transition: margin .5s;
+}
+
+.hover-title-right {
+  padding-left: 30px;
+  margin-right: -61px;
+  transition: margin .5s;
+}
+
+.arrow:hover .hover-title-right {
+  margin: 0;
+  transition: margin .5s;
+}
+
+.arrow:hover .st00 {
+  fill: #fff;
+}
+
 
 /********** about page styles **********/
 
