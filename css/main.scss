@@ -230,7 +230,7 @@ img {
 
 .homepage .nav--container {
   display: none;
-  z-index: 3;
+  z-index: 5;
 }
 
 /********** homepage project styles **********/
@@ -308,7 +308,7 @@ img {
 
 .site-footer {
   background-color: $background-gray;
-  padding: 80px 0;
+  padding: 70px 0;
   position: relative;
   z-index: 2;
 }
