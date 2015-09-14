@@ -156,8 +156,8 @@ img {
   padding: 0;
 }
 
-.header__navigation__list:nth-last-child(n) a{
-  margin-right: 0;
+.header__navigation__list li:last-child a {
+  padding-right: 0;
 }
 
 .header__navigation__list li {
@@ -189,6 +189,9 @@ img {
 .homepage-hero {
   align-items: center;
   background: $orange;
+  background: url("/img/room.png");
+  background-size: cover;
+  background-position: center;
   @include display(flex);
   height:100vh;
   justify-content: center;
@@ -237,6 +240,7 @@ img {
 
 #work {
   background-color: #fff;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.15);
   margin-top: 70px;
 }
 
@@ -365,6 +369,7 @@ img {
   @include display(flex);
   height: 100vh;
   position: fixed;
+  opacity: 0;
   z-index: 4;
 }
 
