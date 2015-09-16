@@ -13,7 +13,7 @@ thumb: /img/binghamton/binghamton-homepage.png
 ---
 
 <div class="margin-bottom">
-  <div class="border">
+  <div class="border margin-bottom">
     <img class="margin-image" src="/img/binghamton/curious1.jpg">
     <img class="margin-image" src="/img/binghamton/curious2.jpg">
     <img src="/img/binghamton/curious3.jpg">

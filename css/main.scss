@@ -9,7 +9,9 @@
 
 
 /********** grid styles **********/
-
+.page-content {
+  min-width: 1024px;
+}
 section {
   @include outer-container;
   .intro { @include span-columns(8 of 12); }

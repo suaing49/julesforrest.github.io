@@ -13,7 +13,12 @@ thumb: img/misc/misc-homepage.png
 
 <div class="margin-bottom">
   <div class="border"><img src="/img/misc/text-message.png"></div>
-  <p class="caption">A class project to turn a text message into a poser.</p>
+  <p class="caption">A class project to turn a text message into a poster.</p>
+</div>
+
+<div class="margin-bottom">
+  <div class="border"><img src="/img/misc/transit.png"></div>
+  <p class="caption">A transit poster commemorating my semester abroad.</p>
 </div>
 
 <div class="margin-bottom">
@@ -32,5 +37,5 @@ thumb: img/misc/misc-homepage.png
   <div class="border">
     <img src="/img/misc/gei.png">
   </div>
-  <p class="caption">An identity for a nonprofit student group.</p>
+  <p class="caption">A t-shirt design for a nonprofit student group.</p>
 </div>
