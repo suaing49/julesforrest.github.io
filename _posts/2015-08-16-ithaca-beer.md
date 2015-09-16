@@ -4,9 +4,18 @@ title:  "Ithaca Beer"
 permalink: ithaca-beer
 categories:
 - branding
-- "web design"
-- "print design"
-brief: HackBU is a hackathon at Binghamton University where students come to build and launch web projects over the course of a single weekend. The event had to be appealing to both experienced programming students and beginners looking to get their feet wet.
-highlights: Hackathons are known for their collectable swag, and I really enjoyed creating t-shirts, notebooks and stickers that stayed with the students long after the weekend ended. The furthest destination reached by HackBU swag? One shirt got sent to a Binghamton exchange student living in Morocco.
-thumb: http://placehold.it/300x300
+- "student work"
+brief: For a senior graphic design class, I was tasked with reimagining the identity of a local business. I chose to work on Ithaca Beer, a brewery an hour west of Binghamton. Over the course of the semester, I created a visual identity for the company and applied it across various touchpoints and mediums.
+highlights: Aside from Binghamton itself, Ithaca is my favorite town in Central New York (it's gorges, as they say) and working on a brewery brand gave me tons of stuff to play with. Plus, the beer they make is actually really good, so taking a field trip there for &#8220;research purposes&#8221; was a no brainer.
+thumb: img/ithacabeer/ithaca-homepage.png
 ---
+
+<div class="flush--bottom">
+  <div class="border margin-image"><img src="/img/ithacabeer/ithaca1.png"></div>
+  <div class="border margin-image"><img src="/img/ithacabeer/ithaca2.png"></div>
+  <div class="border margin-image"><img src="/img/ithacabeer/ithaca3.png"></div>
+  <div class="border margin-image"><img src="/img/ithacabeer/ithaca4.png"></div>
+  <div class="border margin-image"><img src="/img/ithacabeer/ithaca5.png"></div>
+  <div class="border margin-image"><img src="/img/ithacabeer/ithaca6.png"></div>
+  <div class="border"><img src="/img/ithacabeer/ithaca7.png"></div>
+</div>

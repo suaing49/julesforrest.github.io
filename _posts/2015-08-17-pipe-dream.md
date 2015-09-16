@@ -6,8 +6,8 @@ categories:
 - branding
 - "print design"
 - infographics
-brief: As managing editor, I implemented a transition from tabloid to broadsheet format and completely redesigned the print edition.
-highlights: Hackathons are known for their collectable swag, and I really enjoyed creating t-shirts, notebooks and stickers that stayed with the students long after the weekend ended. The furthest destination reached by HackBU swag? One shirt got sent to a Binghamton exchange student living in Morocco.
+brief: When I ran for Managing Editor of Pipe Dream my sophomore spring, I pledged to bring our scrappy self-funded student newspaper into the 21st century (of print design). After the election, I switched the paper from tabloid to broadsheet format to accommodate more creative layouts and completely overhauled our styles.
+highlights: Since Pipe Dream is an entirely independent entity, we as students embraced the responsibility of keeping it running year after year. Twice a week, the team banded together to sell ads, write articles and design content to produce a product for the entire student body. Seeing your work printed 3,500 times around campus was an extra plus.
 thumb: /img/pipedream/pipedream-homepage.png
 ---
 
