@@ -7,17 +7,66 @@
 @import "neat/neat";
 @import "base/base";
 
+$project-bottom-margin: 24px;
 
 /********** grid styles **********/
-.page-content {
-  min-width: 1024px;
-}
+
 section {
   @include outer-container;
-  .intro { @include span-columns(8 of 12); }
+  $mobile: new-breakpoint(max-width 645px 4);
+  $tablet: new-breakpoint(max-width 1000px 8);
+  .intro {
+    @include span-columns(8);
+    @include media($tablet) {
+      @include span-columns(8);
+    }
+    @include media($mobile) {
+      @include span-columns(4);
+    }
+  }
   .third {
     @include span-columns(4);
     @include omega(3n);
+    @include media($tablet) {
+      &:nth-last-child(-n+3) .project {
+        margin-bottom: $project-bottom-margin;
+      }
+
+      &:nth-child(3n) {
+        margin-right: 3.57866%;
+      }
+
+      &:nth-child(3n+1) {
+        clear: none;
+      }
+
+      &:nth-child(2n + 1) .project {
+        margin-left: auto;
+      }
+
+      &:nth-child(2n) .project {
+        margin-right: auto;
+      }
+
+      &:nth-child(2n) {
+        text-align: left;
+      }
+
+      @include span-columns(4);
+      @include omega(2n);
+    }
+    @include media($mobile) {
+      @include span-columns(4);
+      @include omega(1n);
+
+      &:nth-child(2n) .project {
+        margin-left: auto;
+      }
+
+      &:nth-child(2n + 1) .project {
+        margin-right: auto;
+      }
+    }
   }
   .half {
     @include span-columns(6);
@@ -262,7 +311,7 @@ img {
   background-color: $aqua;
   @include display(flex);
   height: 300px;
-  margin-bottom: 24px;
+  margin-bottom: $project-bottom-margin;
   max-width: 300px;
   overflow: hidden;
   position: relative;
@@ -270,7 +319,7 @@ img {
 }
 
 .post-items:nth-last-child(-n+3) .project{
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .project:hover {
@@ -304,7 +353,7 @@ img {
 }
 
 .project:hover .home-page-thumbnail {
-  opacity: 0.075;
+  opacity: 0.085;
   transition: opacity 0.3s;
   -webkit-transform:scale(1.03); /********** Safari and Chrome **********/
   -moz-transform:scale(1.03); /********** Firefox **********/
@@ -448,3 +497,5 @@ img {
   background-size: cover;
   height: 300px;
 }
+
+/********** media queries **********/

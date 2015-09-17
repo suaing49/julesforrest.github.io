@@ -5,6 +5,8 @@ permalink: binghamton-university
 categories:
 - "print design"
 - typography
+brieftitle: Job description
+highlightstitle: Highlights
 brief: As a junior graphic designer at Binghamton University's Office of Marketing and Communication, I designed for all kinds of print collateral including travel books, brochures, posters, postcards, business cards, and newsletters. Each project gave me a new opportunity to tell the story of life at Binghamton.
 
 highlights: I studied and worked at the university simultaneously, meaning I had to design for myself as the target audience. Usually this made for an interesting challenge, although it ended up being more nerve-wracking as graduation loomed. As a bonus, I often got to include photos of my friends in my work &hellip; sometimes to their dismay.
