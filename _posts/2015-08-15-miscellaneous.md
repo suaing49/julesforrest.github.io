@@ -29,11 +29,11 @@ thumb: img/misc/misc-homepage.png
 </div>
 
 <div class="margin-bottom">
-  <div class="overflow--auto border">
-    <div class="half">
+  <div class="flexbox border">
+    <div class="half-img">
       <img src="/img/misc/dispatch1.png">
     </div>
-    <div class="half">
+    <div class="half-img">
       <img src="/img/misc/dispatch2.png">
     </div>
   </div>
@@ -44,5 +44,5 @@ thumb: img/misc/misc-homepage.png
   <div class="border">
     <img src="/img/misc/gei.png">
   </div>
-  <p class="caption">A t-shirt design for a nonprofit student group.</p>
+  <p class="caption flush--bottom">A t-shirt design for a nonprofit student group.</p>
 </div>

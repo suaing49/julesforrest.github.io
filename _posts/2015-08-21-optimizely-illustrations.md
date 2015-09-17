@@ -33,31 +33,31 @@ thumb: /img/illustrations/illustrations.png
   <p class="caption">Poster for an Optimizely company picnic.</p>
 </div>
 
-<div class="margin-bottom">
+<div class="flush--bottom">
   <div class="border">
     <div class="margin-image">
       <img src="/img/illustrations/hero.svg">
     </div>
-    <div class="overflow--auto">
-      <div class="third">
+    <div class="flexbox flex-wrap">
+      <div class="third-img">
         <img class="margin-image" src="/img/illustrations/values.svg">
       </div>
-      <div class="third">
+      <div class="third-img">
         <img class="margin-image" src="/img/illustrations/brand.svg">
       </div>
-      <div class="third">
+      <div class="third-img">
         <img class="margin-image" src="/img/illustrations/patterns.svg">
       </div>
-      <div class="third">
+      <div class="third-img">
         <img src="/img/illustrations/oui.svg">
       </div>
-      <div class="third">
+      <div class="third-img">
         <img src="/img/illustrations/personas.svg">
       </div>
-      <div class="third">
+      <div class="third-img">
         <img src="/img/illustrations/resources.svg">
       </div>
     </div>
   </div>
-  <p class="caption">Illustrations for the alpha launch of the Optimizely design guide.</p>
+  <p class="caption flush--bottom">Illustrations for the alpha launch of the Optimizely design guide.</p>
 </div>

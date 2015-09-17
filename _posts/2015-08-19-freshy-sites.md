@@ -55,19 +55,19 @@ thumb: /img/freshysites/freshysites-homepage.png
   <p class="caption">More welcome book spreads.</p>
 </div>
 <div class="flush--bottom">
-  <div class="overflow--auto margin-image border">
-    <div class="half">
+  <div class="flexbox flex-wrap margin-image border">
+    <div class="half-img">
       <img class="margin-image" src="/img/freshysites/DSC_0028.jpg">
     </div>
-    <div class="half">
+    <div class="half-img">
       <img class="margin-image" src="/img/freshysites/DSC_0099.jpg">
     </div>
-    <div class="half">
+    <div class="half-img">
       <img src="/img/freshysites/DSC_0047.jpg">
     </div>
-    <div class="half">
+    <div class="half-img">
       <img src="/img/freshysites/DSC_0184.jpg">
     </div>
   </div>
-  <p class="caption">Office photography shot for use on the FreshySites homepage.</p>
+  <p class="caption flush--bottom">Office photography shot for use on the FreshySites homepage.</p>
 <div>

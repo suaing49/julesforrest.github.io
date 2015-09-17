@@ -9,24 +9,45 @@
 
 
 /********** grid styles **********/
-.page-content {
-  min-width: 1024px;
-}
+
 section {
-  @include outer-container;
-  .intro { @include span-columns(8 of 12); }
+  margin: auto;
+  max-width:960px;
+  .intro {
+    width: 620px;
+  }
   .third {
-    @include span-columns(4);
-    @include omega(3n);
+    width: 305px;
+  }
+
+  .third-img {
+    width: 292px;
   }
   .half {
-    @include span-columns(6);
-    @include omega (2n);
+    width: 460px;
   }
+  .half-img {
+    width: 448px;
+  }
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .overflow--auto {
   overflow: auto;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 /********** color styles **********/
@@ -261,9 +282,10 @@ img {
 .project {
   background-color: $aqua;
   @include display(flex);
-  height: 300px;
+  height: 305px;
+  margin-right: 0;
   margin-bottom: 24px;
-  max-width: 300px;
+  max-width: 305px;
   overflow: hidden;
   position: relative;
   z-index: 2;
@@ -295,11 +317,10 @@ img {
 }
 
 .project .home-page-thumbnail {
-  height: 300px;
+  height: 305px;
   opacity: 1;
   position: absolute;
   transition: opacity 0.3s, transform 0.3s;
-  width: 300px;
   z-index: -1;
 }
 
@@ -324,8 +345,12 @@ img {
   z-index: 2;
 }
 
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer-seal {
-  display: block;
   max-height: 90px;
   margin: auto;
   max-width:90px;
@@ -350,7 +375,10 @@ img {
 
 /********** post styles **********/
 
+
 .post-intro {
+  display: flex;
+  justify-content: space-between;
   margin-top: 50px ;
 }
 
@@ -446,5 +474,5 @@ img {
   background-image: url(/img/about.jpg);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 305px;
 }
