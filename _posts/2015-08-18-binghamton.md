@@ -16,9 +16,9 @@ thumb: /img/binghamton/binghamton-homepage.png
 
 <div class="margin-bottom">
   <div class="border margin-bottom">
-    <img class="margin-image" src="/img/binghamton/curious1.jpg">
-    <img class="margin-image" src="/img/binghamton/curious2.jpg">
-    <img src="/img/binghamton/curious3.jpg">
+    <img class="margin-image" src="/img/binghamton/Curious1.jpg">
+    <img class="margin-image" src="/img/binghamton/Curious2.jpg">
+    <img src="/img/binghamton/Curious3.jpg">
   </div>
   <p class="caption">Spreads from an admissions travel piece.</p>
 </div>
