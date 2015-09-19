@@ -730,6 +730,12 @@ img {
 
 }
 
+@media (max-width: 650px) {
+  .hero-graphic {
+    width: 100%;
+  }
+}
+
 /**********  media queries width 598 **********/
 
 @media (max-width: 590px) {
