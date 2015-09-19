@@ -619,8 +619,8 @@ img {
 
   .post-navigation {
     border-top: 1px solid $light-border-gray;
-    display: flex;
-    justify-content: space-between;
+    @include display(flex);
+    @include justify-content(space-between);
     margin-top: 60px;
     padding-top: 15px;
   }
@@ -814,6 +814,11 @@ img {
 /**********  media queries width 598 **********/
 
 @media (max-width: 590px) {
+
+  .content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 
   .half-text {
     width: 305px;
