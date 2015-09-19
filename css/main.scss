@@ -398,6 +398,12 @@ img {
   margin-bottom: 1em;
 }
 
+.border-flush {
+  border: 1px $border-gray solid;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
 
 /********** arrow navigation styles **********/
 
@@ -816,7 +822,6 @@ img {
 @media (max-width: 590px) {
 
   .content {
-    padding-top: 80px;
     padding-bottom: 80px;
   }
 
