@@ -426,7 +426,7 @@ img {
 }
 
 .arrow:hover {
-  background-color: $aqua;
+  background-color: $orange;
 }
 
 .arrow:hover .hover-title-arrow {
@@ -463,7 +463,6 @@ img {
 .arrow:hover .st00 {
   fill: #fff;
 }
-
 
 /********** about page styles **********/
 
@@ -746,6 +745,40 @@ img {
   .hero-graphic {
     width: 100%;
   }
+
+  .mobile-menu {
+    display: block;
+    padding: 1em 0;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  .menu-toggle {
+    // @include align-items(flex-end);
+    background-color: #fff;
+    // @include display(flex);
+    // @include flex-direction(column);
+  }
+
+  .header__navigation {
+    @include align-items(baseline);
+  }
+
+  .header__navigation__list a {
+    padding: 1em 0;
+  }
+
+  .header__navigation__list li {
+    display: block;
+    text-align: right;
+  }
+
+  .mobile-menu {
+    margin-top: 6px;
+  }
+
 }
 
 /**********  media queries width 598 **********/
@@ -819,39 +852,6 @@ img {
 
   .third-img {
     width: 272px;
-  }
-
-  .mobile-menu {
-    display: block;
-    padding: 1em 0;
-  }
-
-  .desktop-menu {
-    display: none;
-  }
-
-  .menu-toggle {
-    // @include align-items(flex-end);
-    background-color: #fff;
-    // @include display(flex);
-    // @include flex-direction(column);
-  }
-
-  .header__navigation {
-    @include align-items(baseline);
-  }
-
-  .header__navigation__list a {
-    padding: 1em 0;
-  }
-
-  .header__navigation__list li {
-    display: block;
-    text-align: right;
-  }
-
-  .mobile-menu {
-    margin-top: 6px;
   }
 }
 

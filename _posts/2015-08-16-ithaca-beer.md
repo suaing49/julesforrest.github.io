@@ -52,6 +52,6 @@ thumb: img/ithacabeer/ithaca-homepage.png
     <img src="/img/ithacabeer/ithaca8.png">
   </div>
 </div>
-<div class="border flush--bottom">
+<div class="border margin-image">
   <img src="/img/ithacabeer/ithaca9.png">
 </div>
