@@ -31,7 +31,7 @@ thumb: img/misc/misc-homepage.png
 <div class="margin-bottom">
   <div class="flexbox border">
     <div class="half-img">
-      <img src="/img/misc/dispatch1.png">
+      <img class="margin-image-mobile" src="/img/misc/dispatch1.png">
     </div>
     <div class="half-img">
       <img src="/img/misc/dispatch2.png">
