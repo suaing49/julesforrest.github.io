@@ -3,8 +3,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Fresh Pepper | Jules Forrest</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <title>Jules Forrest | {{ page.title }}</title>
+  <meta name="description" content="Fresh Pepper: a design portfolio by Jules Forrest.">
+
+  <meta property="og:title" content="Fresh Pepper | {{ page.title }}" />
+  <meta property="og:image" content="/img/og-pepper.png" />
+  <meta property="og:description" content="Fresh Pepper: a design portfolio by Jules Forrest." />
 
   <link rel="stylesheet" href="{{ "/css/animate.css" }}">
 
