@@ -26,7 +26,7 @@ thumb: /img/binghamton/binghamton-homepage.png
 <div class="margin-bottom">
   <div class="flexbox border">
     <div class="half-img">
-      <img src="/img/binghamton/poster1.png">
+      <img class="margin-image-mobile" src="/img/binghamton/poster1.png">
     </div>
     <div class="half-img">
       <img src="/img/binghamton/poster2.png">
@@ -46,7 +46,7 @@ thumb: /img/binghamton/binghamton-homepage.png
 <div class="margin-bottom">
   <div class="flexbox border">
     <div class="half-img">
-      <img src="/img/binghamton/postcard1.png">
+      <img class="margin-image-mobile" src="/img/binghamton/postcard1.png">
     </div>
     <div class="half-img">
       <img src="/img/binghamton/postcard2.png">

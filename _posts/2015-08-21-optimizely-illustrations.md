@@ -49,10 +49,10 @@ thumb: /img/illustrations/illustrations.png
         <img class="margin-image" src="/img/illustrations/patterns.svg">
       </div>
       <div class="third-img">
-        <img src="/img/illustrations/oui.svg">
+        <img class="margin-image-mobile" src="/img/illustrations/oui.svg">
       </div>
       <div class="third-img">
-        <img src="/img/illustrations/personas.svg">
+        <img class="margin-image-mobile" src="/img/illustrations/personas.svg">
       </div>
       <div class="third-img">
         <img src="/img/illustrations/resources.svg">

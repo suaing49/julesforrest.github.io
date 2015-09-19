@@ -126,6 +126,7 @@ hr {
 
 .nugget-footer {
   font-size: 0.75em;
+  line-height: 20px;
 }
 
 /********** hero styles **********/
@@ -151,6 +152,7 @@ hr {
   font-size: 0.9em;
   font-style: italic;
   font-weight: 500;
+  line-height: 20px;
 }
 /********** post styles **********/
 
@@ -180,6 +182,7 @@ hr {
   font-color: $medium-gray;
   font-family: $nugget-font-family;
   font-size: 0.9em;
+  line-height: 22px;
   margin-top: 15px;
 }
 
@@ -193,4 +196,41 @@ hr {
   margin: auto;
   text-align: center;
   text-transform: uppercase;
+}
+
+/********** media queries **********/
+@media (max-width: 598px) {
+
+  .byline {
+    font-size: 1.5em;
+  }
+
+  .intro-text {
+    width: 305px;
+  }
+
+  .nugget-footer {
+    font-size: 0.65em;
+    line-height: 16px;
+  }
+
+  .italic-footer {
+    font-size: 0.8em;
+    line-height: 18px;
+  }
+
+  .social-links {
+    width: 85px;
+    right: 0;
+    margin-left: 18px;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .byline {
+    font-size: 1.3em;
+  }
+
 }

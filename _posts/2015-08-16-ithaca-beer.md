@@ -12,30 +12,31 @@ highlights: Aside from Binghamton itself, Ithaca is my favorite town in Central 
 thumb: img/ithacabeer/ithaca-homepage.png
 ---
 
-  <div class="margin-bottom">
-    <div class="border margin-image">
-      <img src="/img/ithacabeer/ithaca1.png">
-    </div>
+<div class="margin-bottom">
+  <div class="border margin-image">
+    <img src="/img/ithacabeer/ithaca1.png">
   </div>
-  <div class="margin-bottom">
-    <div class="border margin-image">
-      <img src="/img/ithacabeer/ithaca2.png">
-    </div>
+</div>
+<div class="margin-bottom">
+  <div class="border margin-image">
+    <img src="/img/ithacabeer/ithaca2.png">
   </div>
-  <div class="margin-bottom">
-    <div class="border margin-image">
-      <img src="/img/ithacabeer/ithaca3.png">
-    </div>
+</div>
+<div class="margin-bottom">
+  <div class="border margin-image">
+    <img src="/img/ithacabeer/ithaca3.png">
   </div>
-  <div class="margin-bottom">
-    <div class="border margin-image">
-      <img src="/img/ithacabeer/ithaca4.png">
-    </div>
+</div>
+<div class="margin-bottom">
+  <div class="border margin-image">
+    <img src="/img/ithacabeer/ithaca4.png">
   </div>
-  <div class="margin-bottom">
-    <div class="border margin-image">
+</div>
+<div class="margin-bottom">
+  <div class="border margin-image">
     <img src="/img/ithacabeer/ithaca5.png">
   </div>
+</div>
 <div class="margin-bottom">
   <div class="border margin-image">
     <img src="/img/ithacabeer/ithaca6.png"></div>

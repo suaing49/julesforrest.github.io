@@ -63,7 +63,7 @@ thumb: /img/freshysites/freshysites-homepage.png
       <img class="margin-image" src="/img/freshysites/DSC_0099.jpg">
     </div>
     <div class="half-img">
-      <img src="/img/freshysites/DSC_0047.jpg">
+      <img class="margin-image-mobile" src="/img/freshysites/DSC_0047.jpg">
     </div>
     <div class="half-img">
       <img src="/img/freshysites/DSC_0184.jpg">

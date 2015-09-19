@@ -26,3 +26,18 @@ $(window).scroll(function() {
   }
 
 });
+
+
+var main = function() {
+  $('.mobile-menu').click(function() {
+    $('.desktop-menu').slideToggle(300);
+  });
+
+  $(window).resize(function(){
+  	if(window.outerWidth > 590) {
+  		$('.desktop-menu').removeAttr("style");
+  	}
+  });
+}
+
+$(document).ready(main);

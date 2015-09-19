@@ -9,7 +9,7 @@ permalink: /about/
     <h1 class="text-dark-gray homepage-intro">It's nice to meet you.</h1>
     <div class="divider-content divider background-orange"></div>
   </section>
-  <section>
+  <section class="about-flex">
     <div class="intro">
       <p class="about-text">
         By now, you’ve probably gathered that this is the design portfolio of Jules, sometimes known as Julia, Forrest.  
@@ -21,6 +21,6 @@ permalink: /about/
       I currently work at Optimizely in San Francisco. Feel free to check out <a href="/img/resume.pdf">my resume</a> or <a href="mailto:julesforrest@gmail.com">get in touch</a> at julesforrest@gmail.com.
       </p>
     </div>
-    <div class="third about-image"></div>
+    <div class="third-img about-image"></div>
   </section>
 </div>
