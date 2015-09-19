@@ -23,7 +23,7 @@ section {
 }
 
 .third-img {
-  width: 292px;
+  width: 293px;
 }
 .half {
   width: 460px;
@@ -585,7 +585,7 @@ img {
   }
 
   .third-img {
-    width: 292px;
+    width: 293px;
   }
 
   .third {
@@ -614,6 +614,10 @@ img {
     margin-bottom: 16px;
   }
 
+  .post-items:nth-last-child(-n+2) .project{
+      margin-bottom: 24px;
+  }
+
 }
 
 /**********  media queries width 785 **********/
@@ -629,6 +633,14 @@ img {
     @include justify-content(space-between);
     margin-top: 60px;
     padding-top: 15px;
+  }
+
+  .post-nav-left {
+    @include flex(1);
+  }
+
+  .post-nav-right {
+    @include flex(1);
   }
 
 

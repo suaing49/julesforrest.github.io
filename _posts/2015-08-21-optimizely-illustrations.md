@@ -7,8 +7,8 @@ categories:
 - illustration
 brieftitle: Odds & Ends
 highlightstitle: Highlights
-brief: HackBU is a hackathon at Binghamton University where students come to build and launch web projects over the course of a single weekend. The event had to be appealing to both experienced programming students and beginners looking to get their feet wet.
-highlights: Hackathons are known for their collectable swag, and I really enjoyed creating t-shirts, notebooks and stickers that stayed with the students long after the weekend ended. The furthest destination reached by HackBU swag? One shirt got sent to a Binghamton exchange student living in Morocco.
+brief: Since Optimizely is a software company, finding the right asset to accompany a design isn't always easy. Since stock photography can sometimes feel bland or uninspired, we use illustrations to fill in the gaps and add personality to the site. Plus, for internal swag, there's a lot more room for experimentation.
+highlights: I found design through ma background in photography and initially had no idea how large a role illustration could play in the design process. Though I'm still somewhat of a reluctant illustrator (typography is my one true love), I've come to really enjoy playing around with new illustration styles and techniques.
 thumb: /img/illustrations/illustrations.png
 ---
 
