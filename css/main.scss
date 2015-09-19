@@ -651,6 +651,10 @@ img {
 
 @media (max-width: 710px) {
 
+  .about-text {
+    padding-right: 0;
+  }
+
   .project-content {
     margin-top: 60px;
   }
@@ -663,7 +667,7 @@ img {
   }
 
   .third {
-    width: 251px;
+    width: 238px;
   }
 
   .half-img {
@@ -676,12 +680,12 @@ img {
 
   .project {
     background-color: $aqua;
-    height: 251px;
-    max-width: 251px;
+    height: 238px;
+    max-width: 238px;
   }
 
   .project .home-page-thumbnail {
-    height: 251px;
+    height: 238px;
   }
 
   .intro-text-first {
@@ -729,6 +733,14 @@ img {
   }
 
 }
+
+
+/**********  media queries width 667 **********/
+@media (max-width: 667px) {
+
+}
+
+/**********  media queries width 650 **********/
 
 @media (max-width: 650px) {
   .hero-graphic {
