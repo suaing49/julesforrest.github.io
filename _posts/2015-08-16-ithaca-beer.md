@@ -39,11 +39,11 @@ thumb: img/ithacabeer/ithaca-homepage.png
 </div>
 <div class="margin-bottom">
   <div class="border margin-image">
-    <img src="/img/ithacabeer/ithaca6.png"></div>
+    <img src="/img/ithacabeer/ithaca6.png">
   </div>
 </div>
 <div class="margin-bottom">
-  <div class="border">
+  <div class="border margin-image">
     <img src="/img/ithacabeer/ithaca7.png">
   </div>
 </div>

@@ -33,6 +33,10 @@ var main = function() {
     $('.desktop-menu').slideToggle(300);
   });
 
+  $('.mobile-menu-items').click(function() {
+    $('.desktop-menu').slideUp(300);
+  });
+
   $(window).resize(function(){
   	if(window.outerWidth > 590) {
   		$('.desktop-menu').removeAttr("style");
