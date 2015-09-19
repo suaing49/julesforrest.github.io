@@ -56,7 +56,7 @@ thumb: /img/binghamton/binghamton-homepage.png
 </div>
 
 <div class="flush--bottom">
-  <div class="border">
+  <div class="border-flush">
     <img src="/img/binghamton/poster3.png">
   </div>
   <p class="caption flush--bottom">A poster for engineering graduate programs.</p>

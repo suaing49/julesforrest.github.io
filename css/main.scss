@@ -216,7 +216,7 @@ img {
 .homepage-hero {
   @include align-items(center);
   background: $orange;
-  background: url("/img/room.png");
+  background: url("/img/room.jpg");
   background-size: cover;
   background-position: center;
   @include display(flex);

@@ -39,8 +39,8 @@ thumb: /img/pipedream/pipedream-homepage.png
   </div>
 </div>
 
-<div class="margin-bottom flush--bottom">
-  <div class="border">
+<div class="flush--bottom">
+  <div class="border-flush">
     <img src="/img/pipedream/opinion.png">
   </div>
 </div>

@@ -34,7 +34,7 @@ thumb: /img/illustrations/illustrations.png
 </div>
 
 <div class="flush--bottom">
-  <div class="border">
+  <div class="border-flush">
     <div class="margin-image">
       <img src="/img/illustrations/hero.svg">
     </div>

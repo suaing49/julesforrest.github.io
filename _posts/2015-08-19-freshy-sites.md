@@ -52,7 +52,7 @@ thumb: /img/freshysites/freshysites-homepage.png
   <p class="caption">Spreads of a welcome book given to customers to set proper expections at the onset of projects.</p>
 </div>
 <div class="flush--bottom">
-  <div class="flexbox flex-wrap margin-image border">
+  <div class="flexbox flex-wrap margin-image border-flush">
     <div class="half-img">
       <img class="margin-image" src="/img/freshysites/DSC_0028.jpg">
     </div>
