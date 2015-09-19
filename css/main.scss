@@ -610,9 +610,13 @@ img {
     padding: 15px;
   }
 
-  .margin-image {
-    margin-bottom: 16px;
+  .border-flush {
+    padding: 15px;
   }
+
+  .margin-image {
+    margin-bottom: 15px;
+}
 
   .post-items:nth-last-child(-n+2) .project{
       margin-bottom: 24px;
@@ -815,6 +819,10 @@ img {
 }
 
 .border {
+  padding: 10px;
+}
+
+.border-flush {
   padding: 10px;
 }
 
