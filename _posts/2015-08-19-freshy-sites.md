@@ -34,25 +34,22 @@ thumb: /img/freshysites/freshysites-homepage.png
   <div class="border margin-image">
     <img src="/img/freshysites/welcome1.png">
   </div>
-  <p class="caption">Spreads of a welcome book given to customers to set proper expections at the onset of projects.</p>
 </div>
 <div class="margin-bottom">
   <div class="border margin-image">
     <img src="/img/freshysites/welcome2.png">
   </div>
-  <p class="caption">More welcome book spreads.</p>
 </div>
 <div class="margin-bottom">
   <div class="border margin-image">
     <img src="/img/freshysites/welcome3.png">
   </div>
-  <p class="caption">More welcome book spreads.</p>
 </div>
 <div class="margin-bottom">
   <div class="border margin-image">
     <img src="/img/freshysites/welcome4.png">
   </div>
-  <p class="caption">More welcome book spreads.</p>
+  <p class="caption">Spreads of a welcome book given to customers to set proper expections at the onset of projects.</p>
 </div>
 <div class="flush--bottom">
   <div class="flexbox flex-wrap margin-image border">
