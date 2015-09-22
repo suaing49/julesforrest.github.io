@@ -24,6 +24,11 @@ thumb: img/misc/misc-homepage.png
 </div>
 
 <div class="margin-bottom">
+  <div class="border"><img src="/img/misc/runningclub.png"></div>
+  <p class="caption">A running club shirt.</p>
+</div>
+
+<div class="margin-bottom">
   <div class="border"><img src="/img/misc/spacebnb.png"></div>
   <p class="caption">Part of a fake app splash screen for a friend.</p>
 </div>

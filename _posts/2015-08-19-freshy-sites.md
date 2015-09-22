@@ -9,7 +9,7 @@ brieftitle: Job description
 highlightstitle: Highlights
 brief: Based on an existing logo, I created branding materials for FreshySites, a web development company located in Binghamton. I also shot office photography for use on their website and in future promotions.
 highlights: FreshySites is a great example of the amazing changes happening right now in Binghamton. Many mom-and-pop shops in the area didn't have access to affordable web development so FreshySites stepped in to bring them online.
-thumb: /img/freshysites/freshysites-homepage.png
+thumb: /img/freshysites/freshysites-homepage.jpg
 ---
 
 <div class="margin-bottom">

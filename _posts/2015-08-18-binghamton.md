@@ -11,7 +11,7 @@ brief: As a junior graphic designer at Binghamton University's Office of Marketi
 
 highlights: I studied and worked at the university simultaneously, meaning I had to design for myself as the target audience. Usually this made for an interesting challenge, although it ended up being more nerve-wracking as graduation loomed. As a bonus, I often got to include photos of my friends in my work &hellip; sometimes to their dismay.
 
-thumb: /img/binghamton/binghamton-homepage.png
+thumb: /img/binghamton/binghamton-homepage.jpg
 ---
 
 <div class="margin-bottom">
