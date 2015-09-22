@@ -10,7 +10,7 @@ brieftitle: Odds & Ends
 highlightstitle: Highlights
 brief: A random assortment of college assignments, side projects for friends and hackathon hacks from back in the day.
 highlights: If I were more mature, I wouldn't get a kick out of ornately typesetting a curse word in a class project. But I'm not. Shit.
-thumb: img/misc/misc-homepage.png
+thumb: img/misc/misc-homepage.jpg
 ---
 
 <div class="margin-bottom">
