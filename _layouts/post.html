@@ -2,7 +2,7 @@
 layout: default
 ---
 {% if page.next.url %}
-  <div class="arrow--container left">
+  <div class="arrow--container viewport-flush-left">
     <a href="{{ page.next.url }}">
       <div class="arrow">
         <div class="hover-title hover-title-left">Previous</div>
@@ -17,7 +17,7 @@ layout: default
 {% endif %}
 
 {% if page.previous.url %}
-  <div class="arrow--container right">
+  <div class="arrow--container viewport-flush-right">
     <a class="hover-title-arrow" href="{{ page.previous.url }}">
       <div class="arrow">
         <div class="arrow-right">

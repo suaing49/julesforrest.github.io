@@ -13,30 +13,30 @@ highlights: If I were more mature, I wouldn't get a kick out of ornately typeset
 thumb: img/misc/misc-homepage.jpg
 ---
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump">
   <div class="border"><img src="/img/misc/text-message.png"></div>
   <p class="caption">A class project to turn a text message into a small card.</p>
 </div>
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump">
   <div class="border"><img src="/img/misc/transit.png"></div>
   <p class="caption">A transit poster commemorating my semester abroad.</p>
 </div>
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump">
   <div class="border"><img src="/img/misc/runningclub.png"></div>
   <p class="caption">A running club shirt.</p>
 </div>
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump">
   <div class="border"><img src="/img/misc/spacebnb.png"></div>
   <p class="caption">Part of a fake app splash screen for a friend.</p>
 </div>
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump">
   <div class="flexbox border">
     <div class="half-img">
-      <img class="margin-image-mobile" src="/img/misc/dispatch1.png">
+      <img class="image-margin-bottom-bump-mobile" src="/img/misc/dispatch1.png">
     </div>
     <div class="half-img">
       <img src="/img/misc/dispatch2.png">

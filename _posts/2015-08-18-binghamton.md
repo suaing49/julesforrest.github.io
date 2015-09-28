@@ -14,19 +14,19 @@ highlights: I studied and worked at the university simultaneously, meaning I had
 thumb: /img/binghamton/binghamton-homepage.jpg
 ---
 
-<div class="margin-bottom">
-  <div class="border margin-bottom">
-    <img class="margin-image" src="/img/binghamton/Curious1.jpg">
-    <img class="margin-image" src="/img/binghamton/Curious2.jpg">
+<div class="margin-bottom-bump">
+  <div class="border margin-bottom-bump">
+    <img class="image-margin-bottom-bump" src="/img/binghamton/Curious1.jpg">
+    <img class="image-margin-bottom-bump" src="/img/binghamton/Curious2.jpg">
     <img src="/img/binghamton/Curious3.jpg">
   </div>
   <p class="caption">Spreads from an admissions travel piece.</p>
 </div>
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump">
   <div class="flexbox border">
     <div class="half-img">
-      <img class="margin-image-mobile" src="/img/binghamton/poster1.png">
+      <img class="image-margin-bottom-bump-mobile" src="/img/binghamton/poster1.png">
     </div>
     <div class="half-img">
       <img src="/img/binghamton/poster2.png">
@@ -35,18 +35,18 @@ thumb: /img/binghamton/binghamton-homepage.jpg
   <p class="caption">Posters for a student engagement initiative.</p>
 </div>
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump">
   <div class="border">
-    <img class="margin-image" src="/img/binghamton/brochure1.png">
+    <img class="image-margin-bottom-bump" src="/img/binghamton/brochure1.png">
     <img src="/img/binghamton/brochure2.png">
   </div>
   <p class="caption">A brochure from the Counseling Center on violence prevention.</p>
 </div>
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump">
   <div class="flexbox border">
     <div class="half-img">
-      <img class="margin-image-mobile" src="/img/binghamton/postcard1.png">
+      <img class="image-margin-bottom-bump-mobile" src="/img/binghamton/postcard1.png">
     </div>
     <div class="half-img">
       <img src="/img/binghamton/postcard2.png">

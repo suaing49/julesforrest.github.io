@@ -12,29 +12,29 @@ highlights: I found design through a background in photography and initially had
 thumb: /img/illustrations/illustrations.jpg
 ---
 
-<div class="margin-bottom">
-  <div class="border margin-image">
+<div class="margin-bottom-bump">
+  <div class="border image-margin-bottom-bump">
     <img src="/img/illustrations/office.png">
   </div>
   <p class="caption">The Optimizely headquarters in San Francisco.</p>
 </div>
 
-<div class="margin-bottom">
-  <div class="border margin-image">
+<div class="margin-bottom-bump">
+  <div class="border image-margin-bottom-bump">
     <img src="/img/illustrations/tahoe.png">
   </div>
   <p class="caption">A little sticker for a design team trip to Tahoe.</p>
 </div>
 
-<div class="margin-bottom">
-  <div class="border margin-image">
+<div class="margin-bottom-bump">
+  <div class="border image-margin-bottom-bump">
     <img src="/img/illustrations/companypicnic.png">
   </div>
   <p class="caption">Poster for an Optimizely company picnic.</p>
 </div>
 
-<div class="margin-bottom">
-  <div class="border margin-image">
+<div class="margin-bottom-bump">
+  <div class="border image-margin-bottom-bump">
     <img src="/img/illustrations/email.png">
   </div>
   <p class="caption">Illustrations for an Optimizely starter email.</p>
@@ -42,24 +42,24 @@ thumb: /img/illustrations/illustrations.jpg
 
 <div class="flush--bottom">
   <div class="border-flush">
-    <div class="margin-image">
+    <div class="image-margin-bottom-bump">
       <img src="/img/illustrations/hero.svg">
     </div>
     <div class="flexbox flex-wrap">
       <div class="third-img">
-        <img class="margin-image" src="/img/illustrations/values.svg">
+        <img class="image-margin-bottom-bump" src="/img/illustrations/values.svg">
       </div>
       <div class="third-img">
-        <img class="margin-image" src="/img/illustrations/brand.svg">
+        <img class="image-margin-bottom-bump" src="/img/illustrations/brand.svg">
       </div>
       <div class="third-img">
-        <img class="margin-image" src="/img/illustrations/patterns.svg">
+        <img class="image-margin-bottom-bump" src="/img/illustrations/patterns.svg">
       </div>
       <div class="third-img">
-        <img class="margin-image-mobile" src="/img/illustrations/oui.svg">
+        <img class="image-margin-bottom-bump-mobile" src="/img/illustrations/oui.svg">
       </div>
       <div class="third-img">
-        <img class="margin-image-mobile" src="/img/illustrations/personas.svg">
+        <img class="image-margin-bottom-bump-mobile" src="/img/illustrations/personas.svg">
       </div>
       <div class="third-img">
         <img src="/img/illustrations/resources.svg">

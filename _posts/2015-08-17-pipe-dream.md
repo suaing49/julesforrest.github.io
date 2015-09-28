@@ -13,27 +13,27 @@ highlights: Since Pipe Dream is an entirely independent entity, we as students e
 thumb: /img/pipedream/pipedream-homepage.jpg
 ---
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump-bump">
   <div class="border">
     <img src="/img/pipedream/restaurantweek.png">
   </div>
 </div>
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump">
   <div class="border">
-    <img class="margin-image" src="/img/pipedream/sportscover.png">
+    <img class="image-margin-bottom-bump" src="/img/pipedream/sportscover.png">
     <img src="/img/pipedream/sportsspread.png">
   </div>
   <p class="caption">This spread was awarded <a href="http://studentpress.org/acp/winners/design13.html">second place </a> for news spreads by the Associated Collegiate Press in 2013.</p>
 </div>
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump">
   <div class="border">
     <img src="/img/pipedream/summer.png">
   </div>
 </div>
 
-<div class="margin-bottom">
+<div class="margin-bottom-bump">
   <div class="border">
     <img src="/img/pipedream/greeklife.png">
   </div>
