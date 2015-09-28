@@ -249,11 +249,9 @@ img {
 .hero-graphic {
   position: relative;
   width: 650px;
-  @include animation-delay(2.25s);
 }
 
 .hero-byline {
-  @include animation-delay(2.25s);
 }
 
 /********** homepage nav styles **********/
